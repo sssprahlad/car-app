@@ -1,0 +1,32 @@
+.row-img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 400px;
+  /* padding-top: 30px; */
+}
+.img-sub-cont {
+  flex-basis: 35%;
+  min-width: 350px;
+  /* text-align: center; */
+}
+.car-img {
+  max-width: 100%;
+  animation: run 3s linear infinite;
+}
+.dark {
+  background: black;
+  color: white;
+}
+@keyframes run {
+  0% {
+    transform: translate(-100px, -100px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.book-btn {
+  padding: 10px 20px;
+}

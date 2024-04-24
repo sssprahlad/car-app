@@ -1,0 +1,140 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: lightblue;
+  padding: 10px;
+  /* position: fixed;  */
+  /* width: 100%;  */
+  z-index: 2;
+}
+.nav-bg-clr {
+  background: black;
+  /* position: fixed; */
+  /* width: 100%; */
+  z-index: 2;
+}
+.logo {
+  height: 100px;
+  width: 180px;
+  border-radius: 8px;
+}
+
+.nav-bg {
+  color: white;
+}
+nav ul li {
+  display: inline-block;
+  margin: 15px;
+  font-weight: 600;
+  position: relative;
+}
+nav ul li::after {
+  content: "";
+  width: 0;
+  background: #ff523b;
+  position: absolute;
+  height: 3px;
+  left: 0;
+  bottom: -2px;
+  transition: 0.2s;
+}
+nav ul li:hover::after {
+  width: 100%;
+}
+nav ul li:hover {
+  color: rgb(229, 9, 241);
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+.white-btn {
+  color: white;
+}
+
+.menu-btn {
+  display: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 25px;
+}
+.clr {
+  color: #ffffff;
+}
+.ul-list {
+  display: none;
+}
+ul li {
+  padding-bottom: 10px;
+  margin-left: 15px;
+}
+.ul-list-clr {
+  display: none;
+  list-style-type: none;
+  background: lightblue;
+  color: black;
+  /* margin: 15px; */
+  font-weight: 600;
+  margin-top: 0px;
+  transition: 0.9s;
+  padding: 10px 0px;
+}
+@media screen and (max-width: 786px) {
+  nav ul {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .logo {
+    height: 60px;
+    width: 120px;
+  }
+  .ul-list {
+    display: block;
+    width: 100%;
+    list-style-type: none;
+    background: #333;
+    color: white;
+    margin-top: 0px;
+    transition: 0.9s;
+    padding: 10px 0px;
+  }
+  .ul-list-clr {
+    display: block;
+  }
+
+  .ul-list li {
+    margin: 5px;
+  }
+  .link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+  }
+  .linkClrs {
+    text-decoration: none;
+    color: #333;
+    padding: 0px 15px;
+    margin-bottom: 10px;
+  }
+}
+.blackLink {
+  color: black;
+}
+.whiteLink {
+  color: white;
+}
+
+.active {
+  background: #1d4ed8;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}

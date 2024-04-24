@@ -1,0 +1,82 @@
+.contact-main-cont {
+  background-image: url("https://wallpapers.com/images/hd/blank-and-white-world-map-300exblef1juuk5g.jpg");
+  height: 80vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.contact-sub-cont {
+  display: flex;
+  justify-content: center;
+  background-color: #b7e0b9;
+  flex-direction: column;
+  flex-basis: 25%;
+  min-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.contact-text {
+  text-align: center;
+}
+.cont-sub {
+  background-color: #edf6fd;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.person-icon {
+  font-size: 20px;
+  padding-left: 10px;
+}
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  width: 300px;
+}
+
+.contact-img {
+  max-width: 100%;
+}
+.submit-btn {
+  background-color: blue;
+  width: 100px;
+  padding: 10px;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.center-cont {
+  text-align: center;
+}
+.submit-btn:hover {
+  background-color: #ff523b;
+}
+.color {
+  color: white;
+}
+
+.bg-clr {
+  background-color: black;
+}
+.map-cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+textarea{
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  
+
+}

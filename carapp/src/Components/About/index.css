@@ -1,0 +1,75 @@
+.about-row-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+:root{
+    --black-color:black;
+}
+.about-bg{
+
+    background: var(--black-color);
+   
+}
+.about-sub-cont {
+  flex-basis: 35%;
+  min-width: 350px;
+  margin-right: 20px;
+}
+.about-sub{
+    color: white;
+}
+.about-sub-cont img {
+  max-width: 100%;
+}
+.team-cont{
+    background: #F6F5F5;
+}
+.our-team-cont{
+    text-align: center;
+}
+.our-team-description{
+    padding:10px 15px ;
+    margin: 0;
+    /* text-align: justify; */
+   
+}
+.our-team{
+    padding: 5px;
+    margin: 0;
+    color: blue;
+}
+.meet-text{
+    padding: 0px;
+    margin: 0;
+}
+.founder-details-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.each-card{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    flex-basis: 25%;
+    min-width: 300px;
+    margin:60px 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px; 
+    transition: 0.5s;
+}
+.each-card:hover{
+    background: blueviolet;
+    color: white;
+    transform: translateY(-7px);
+}
+
+.founder-img{
+    height: 140px;
+    width: 140px;
+    margin-top:-80px;
+    border-radius: 45%;
+}

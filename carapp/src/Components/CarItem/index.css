@@ -1,0 +1,68 @@
+.car-item-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px;
+  flex-basis: 24%;
+  min-width: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* background: black;
+    color: white; */
+  transition: 0.5s;
+}
+.item {
+  border: 3px solid #ffffff;
+  background: white;
+  color: black;
+}
+
+.car-item-cont:hover {
+  transform: translateY(-10px);
+  background: blueviolet;
+  color: white;
+}
+.car-item-cont:hover .price {
+  color: white;
+}
+.car-img {
+  max-width: 100%;
+}
+.model-row-cont {
+  display: flex;
+}
+
+.row-cont {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.car-icon {
+  margin-right: 6px;
+  font-size: 20px;
+  color: goldenrod;
+}
+
+.price {
+  font-weight: 700;
+  color: #1089ff;
+}
+.description {
+  text-align: justify;
+  font-weight: 500;
+  /* color: gray; */
+}
+.book-btn {
+  background-color: #01d28e;
+  color: white;
+  padding: 15px 40px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+.book-btn:hover {
+  background-color: #ff523b;
+}
